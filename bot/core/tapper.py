@@ -371,7 +371,7 @@ class Tapper:
                                 logger.info(f'{self.session_name} | Diamond clicker on cooldown')
 
                             next_diamond_time = diamond_state['timings']['nextAt']
-                            sleep_time = int(next_diamond_time / 1000 - time())
+                            sleep_time = int(next_diamond_time / 1000 - time()) + randint(60, 480)
 
                     await asyncio.sleep(delay=randint(5, 10))
 
