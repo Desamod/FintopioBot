@@ -12,7 +12,7 @@ class Settings(BaseSettings):
     AUTO_TASK: bool = True
     PLAY_CLICKER: bool = True
     JOIN_TG_CHANNELS: bool = True
-    REF_ID: str = 'reflink-reflink_qd5D86XxNynQ4kll-'
+    REF_ID: str = 'reflink-reflink_lxr8asPHBD28HyDs-'
 
 
 settings = Settings()
